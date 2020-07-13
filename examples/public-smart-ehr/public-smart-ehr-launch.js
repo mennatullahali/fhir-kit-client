@@ -82,7 +82,7 @@ app.get('/callback', async (req, res) => {
   // Create a new OAuth2 object using the Client capability statement:
   const oauth2 = simpleOauthModule.create({
     client: {
-      id: CLIENT_ID,
+      id: 'c6af8dbf-bef9-4982-964f-5fd0698a8dbd',
     },
     auth: {
       tokenHost: `${tokenUrl.protocol}//${tokenUrl.host}`,
